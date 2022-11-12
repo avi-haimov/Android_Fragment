@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    android:orientation="vertical"
+    tools:context=".BlankFragmentOne">
+
+    <TextView
+        android:id="@+id/textViewFragmentOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/textViewFragmentTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HOW ARE YOU ?"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/buttonForSecFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Button" />
+
+</LinearLayout>
